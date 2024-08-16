@@ -157,6 +157,5 @@ def submit_query():
     
     return jsonify({'success': True, 'columns': columns, 'data': query_results_json})
 
-
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8080)
